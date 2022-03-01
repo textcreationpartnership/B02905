@@ -1,0 +1,1310 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The meire of Collingtoun, newly revived. Being very delectable, pleasant, and inoffensive to any reader. / Compyled, and corrected by P.D.</title>
+            <author>P. D.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1662</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 36 KB of XML-encoded text transcribed from 16 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">B02905</idno>
+            <idno type="STC">Wing D78A</idno>
+            <idno type="STC">ESTC R174481</idno>
+            <idno type="EEBO-CITATION">52211793</idno>
+            <idno type="OCLC">ocm 52211793</idno>
+            <idno type="VID">175632</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. B02905)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 175632)</note>
+            <note>Images scanned from microfilm: (Early English Books, 1641-1700 ; 2744:2)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The meire of Collingtoun, newly revived. Being very delectable, pleasant, and inoffensive to any reader. / Compyled, and corrected by P.D.</title>
+                  <author>P. D.</author>
+               </titleStmt>
+               <extent>31 p.   </extent>
+               <publicationStmt>
+                  <publisher>s.n.],</publisher>
+                  <pubPlace>[Glasgow? :</pubPlace>
+                  <date>Printed in the year 1662.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>In verse.</note>
+                  <note>Title vignette.</note>
+                  <note>Place of publication suggested by Wing.</note>
+                  <note>Reproduction of the original in the University of Texas, Austin Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Mares --  Poetry --  Early modern, 1500-1700.</term>
+               <term>Scottish poetry --  To 1700.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-08</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-09</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-01</date>
+            <label>Megan Marion</label>Sampled and proofread</change>
+         <change>
+            <date>2011-01</date>
+            <label>Megan Marion</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:175632:1"/>
+            <pb facs="tcp:175632:1" rendition="simple:additions"/>
+            <p>THE MEIRE OF <hi>COLLINGTO<g ref="char:V">Ʋ</g>N,</hi> NEWLY REVIVED. BEING Very delectable, pleaſant, and inoffenſive to any Reader.</p>
+            <p>Compyled, and corrected by <hi>P.D.</hi>
+            </p>
+            <figure>
+               <figDesc>depiction of a woman milking a cow and another woman churning milk</figDesc>
+            </figure>
+            <p>Printed in the Year, 1662.</p>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <pb facs="tcp:175632:2"/>
+            <pb n="3" facs="tcp:175632:2"/>
+            <head>THE MEIRE OF <hi>COLLINGTO<g ref="char:V">Ʋ</g>N.</hi>
+            </head>
+            <lg n="1">
+               <head>1.</head>
+               <l>AN Hether-man, as I heard ſay,</l>
+               <l>Senſyne I think a week or tway,</l>
+               <l>Came cantly cracking out the way,</l>
+               <l>none with him but his Meir:</l>
+               <l>Who being late he bade her ride,</l>
+               <l>And with a ſpurre did jag her ſide,</l>
+               <l>But ay the ſilly Meir bade bide,</l>
+               <l>and further would not ſteir:</l>
+            </lg>
+            <lg n="2">
+               <head>2.</head>
+               <l>But lay down on the fair high ſtreet,</l>
+               <l>And, ſhooting out both head and feet,</l>
+               <l>She meekly ſpake theſe words ſo ſweet,</l>
+               <l>your ſpurring will not make it.</l>
+               <l>Oft have I turſt your Hether crame,</l>
+               <l>And born your ſelf right oft-times hame,</l>
+               <l>With many toom and hungry wame,</l>
+               <l>when thou haſt been well packed.</l>
+            </lg>
+            <pb n="4" facs="tcp:175632:3"/>
+            <lg n="3">
+               <head>3.</head>
+               <l>But now is come my fatall end,</l>
+               <l>With you I may no further wend,</l>
+               <l>To my ſweet huſſie me commend,</l>
+               <l>and all the reſt at hame.</l>
+               <l>Oft have I born upon my banes</l>
+               <l>Hath cauſ'd their beards all wag at anes,</l>
+               <l>But now for me they may chew ſtanes,</l>
+               <l>we'll never meet again.</l>
+            </lg>
+            <lg n="4">
+               <head>4.</head>
+               <l>The ſilly Carle for woe he grat,</l>
+               <l>And down upon his arſe he ſat;</l>
+               <l>The night was foule, he was all wat</l>
+               <l>and periſhed of cauld.</l>
+               <l>Yet with himſelf he did adviſe,</l>
+               <l>Longer to ſit he were not wiſe,</l>
+               <l>Then pray'd the ſilly Meir to riſe,</l>
+               <l>and draw her to ſome hauld:</l>
+            </lg>
+            <lg n="5">
+               <head>5.</head>
+               <l>But, no more nor ſhe had been dead,</l>
+               <l>She could remove her from that ſtead:</l>
+               <l>When he did preaſſe to lift her head,</l>
+               <l>her arſe fell down behind.</l>
+               <l>Then in a grief he did her hail,</l>
+               <l>And drugged both at mein and tail,</l>
+               <l>And other parts he could beſt wail,</l>
+               <l>then bade her take the wind.</l>
+            </lg>
+            <lg n="6">
+               <head>6.</head>
+               <l>Then did he take forth of a wallat</l>
+               <l>Some draff, whereon this Meir did mallat,</l>
+               <l>Which fiercelier gart her lift her pallat</l>
+               <l>nor all the reſt before.</l>
+               <pb n="5" facs="tcp:175632:3"/>
+               <l>She ate thereof with ſo good will,</l>
+               <l>While, I wot well, ſhe had her fill:</l>
+               <l>When ſhe was full, then ſhe lay ſtill,</l>
+               <l>and would not eat no more:</l>
+            </lg>
+            <lg n="7">
+               <head>7.</head>
+               <l>But ſtart on foot, as it would be,</l>
+               <l>None being there but ſhe and he:</l>
+               <l>The night was cold, and bitterlie</l>
+               <l>it blattered on of rain.</l>
+               <l>The Carle was cold, the ſooth to ſay,</l>
+               <l>And fain he would have been away:</l>
+               <l>For paſſed was the light of day,</l>
+               <l>and night was come again.</l>
+            </lg>
+            <lg n="8">
+               <head>8.</head>
+               <l>Yet with himſelf he did adviſe,</l>
+               <l>Longer to ſit he were not wiſe,</l>
+               <l>Then pray'd the ſilly Meir to riſe,</l>
+               <l>and drew her to ſome hold:</l>
+               <l>Then, foot for foot, they went together,</l>
+               <l>But oft ſhe fell, the gate was ſlidder:</l>
+               <l>Yet where to take her he did ſwidder,</l>
+               <l>while at laſt, as he would,</l>
+            </lg>
+            <lg n="9">
+               <head>9.</head>
+               <l>He warily did her weiſe and weild</l>
+               <l>To <hi>Collingtoun</hi> Broom, a full-good beild,</l>
+               <l>And warmeſt als in all that field,</l>
+               <l>and there he bade her hide her;</l>
+               <l>For there if <hi>Duncan</hi> apprehend thee,</l>
+               <l>With ſore ſad ſtroaks indeed he'll end thee:</l>
+               <l>I pray thee from his wrath defend thee,</l>
+               <l>ſyne he ſat down beſide her,</l>
+            </lg>
+            <pb n="6" facs="tcp:175632:4"/>
+            <lg n="10">
+               <head>10.</head>
+               <l>And bade good-night, my darling dear,</l>
+               <l>My bread-winner this many a year:</l>
+               <l>Alace that I ſhould leave thee here,</l>
+               <l>ſo wilſome of thy wain.</l>
+               <l>Dear Maſter (quoth this Meir) ye ſhent you</l>
+               <l>For my diſtemper to torment you:</l>
+               <l>Sober thy kind heart and repent you,</l>
+               <l>we'll never meet again.</l>
+            </lg>
+            <lg n="11">
+               <head>11.</head>
+               <l>With this they ſhed, as I heard ſay,</l>
+               <l>With many a ſhout and wail-away,</l>
+               <l>Referring to a bran-new day,</l>
+               <l>to make her latter will.</l>
+               <l>But truely, as the caſe befell,</l>
+               <l>(And here the truth I minde to tell)</l>
+               <l>They never met by twenty ell,</l>
+               <l>that purpoſe to fulfill.</l>
+            </lg>
+            <lg n="12">
+               <head>12.</head>
+               <l>By which aroſe right great diſſention,</l>
+               <l>Much deadly feed, and hot contention:</l>
+               <l>For many, of a wrong intention,</l>
+               <l>alledg'd ſome of her gear;</l>
+               <l>And they before who never ſaw her,</l>
+               <l>Nor in her life did ever knaw her,</l>
+               <l>That they were of her kin did ſhaw her,</l>
+               <l>as after ye ſhall hear.</l>
+            </lg>
+            <lg n="13">
+               <head>13.</head>
+               <l>The Kairle went home a weary groom,</l>
+               <l>But ſhe, all night, among the broom,</l>
+               <l>Lay ſtill, both weary, faint and toom,</l>
+               <l>while morn that it was day.</l>
+               <pb n="7" facs="tcp:175632:4"/>
+               <l>Then forth came <hi>Duncan</hi> on the morrow,</l>
+               <l>As he had been to ride on ſorrow,</l>
+               <l>With a long ſting, which he did borrow,</l>
+               <l>to chaſe the Meir away.</l>
+            </lg>
+            <lg n="14">
+               <head>14.</head>
+               <l>He hit her two'r three routs indeed,</l>
+               <l>And bade her paſſe ſweith from this ſteed:</l>
+               <l>If thou bide here i'le be thy dead,</l>
+               <l>with that gave her a lounder,</l>
+               <l>While mouth and noſe ruſht out of blood,</l>
+               <l>She ſtackered alſo where ſhe ſtood,</l>
+               <l>For ſhe was tint for fault of food,</l>
+               <l>and ſo it was no wonder.</l>
+            </lg>
+            <lg n="15">
+               <head>15.</head>
+               <l>Yet quoth this beaſt with heavy chear,</l>
+               <l>I pray you, <hi>Duncan,</hi> thole me here</l>
+               <l>Untill the out come of the year,</l>
+               <l>and then, if I grow better,</l>
+               <l>I ſhall remove, I you affure,</l>
+               <l>Though I were ne're ſo weak or poor,</l>
+               <l>And ſeek my meat through <hi>Currie</hi> Moor,</l>
+               <l>as faſt as I may ſwatter.</l>
+            </lg>
+            <lg n="16">
+               <head>16.</head>
+               <l>When he perceived it was ſo,</l>
+               <l>That from that part ſhe could not go,</l>
+               <l>Into a grief he paſt her fro,</l>
+               <l>and would no longer tarrie:</l>
+               <l>But ſent <hi>Pet Peacock</hi> in a fray,</l>
+               <l>For to have chaſt this Meir away,</l>
+               <l>With a long kent, as I heard ſay,</l>
+               <l>and in a firrie farie.</l>
+            </lg>
+            <pb n="8" facs="tcp:175632:5"/>
+            <lg n="17">
+               <head>17.</head>
+               <l>Ran to the Mill and fetcht the lowder,</l>
+               <l>Where with he hit her on the ſhoulder,</l>
+               <l>While he dang't all in gruſh like powder,</l>
+               <l>he laid it on ſo ſicker:</l>
+               <l>Then from theſe bounds he bade her pack her,</l>
+               <l>Or elſe he ſwore that he ſhould wrack her:</l>
+               <l>Then through the Meadow ſhe did take her,</l>
+               <l>as faſt as ſhe might bicker.</l>
+            </lg>
+            <lg n="18">
+               <head>18.</head>
+               <l>But at the laſt, this beaſt, being poor,</l>
+               <l>Long for to run could not endure,</l>
+               <l>He did o'retake her in <hi>Fordell</hi> Moor,</l>
+               <l>and put her in a Tether,</l>
+               <l>Then laid upon her hoghs and heels,</l>
+               <l>Commanding her to leave theſe fields,</l>
+               <l>And bade her paſſe to <hi>Liſtoun</hi> ſhields,</l>
+               <l>and peule among the Hether.</l>
+            </lg>
+            <lg n="19">
+               <head>19.</head>
+               <l>Yet, quoth this ſilly ſimple beaſt,</l>
+               <l>I pray you, <hi>Pet,</hi> hear my requeſt,</l>
+               <l>Let me remain this night here-Eaſt,</l>
+               <l>among the broom to reſt me:</l>
+               <l>And, on the morn, I thee behight,</l>
+               <l>Two hours and more before day-light,</l>
+               <l>I ſhall to <hi>Bavelaw</hi> take the flight,</l>
+               <l>and tell how you have dreſt me.</l>
+            </lg>
+            <lg n="20">
+               <head>20.</head>
+               <l>Thus <hi>Petie,</hi> with her words contented,</l>
+               <l>Did home-ward go, and ſore repented</l>
+               <l>That he this beaſt had ſore tormented,</l>
+               <l>and in ſuch manner dreſt her;</l>
+               <pb n="9" facs="tcp:175632:5"/>
+               <l>And ſhe, both dolorous and wae,</l>
+               <l>Came poorly creeping down the brae,</l>
+               <l>With a ſore skin, both black and blae,</l>
+               <l>and there ſat down to reſt her:</l>
+            </lg>
+            <lg n="21">
+               <head>21.</head>
+               <l>And there, from time that ſhe ſat down,</l>
+               <l>For weatineſſe ſhe fell in ſwown,</l>
+               <l>And, ere ſhe wakened, <hi>John Colhoun</hi>
+               </l>
+               <l>came on her with a blatter,</l>
+               <l>Accompani'd with old <hi>Pakes Patoun</hi>
+               </l>
+               <l>And <hi>Richie March,</hi> who dwelt in <hi>Hatoun,</hi>
+               </l>
+               <l>And laid upon her with a battoun,</l>
+               <l>while all her harns did clatter.</l>
+            </lg>
+            <lg n="22">
+               <head>22.</head>
+               <l>To whom this beaſt all wo begon,</l>
+               <l>Said, loving, honeſt, good, ſweet <hi>John,</hi>
+               </l>
+               <l>Let me, but this one night, alone,</l>
+               <l>and I wiſh nor I worrie,</l>
+               <l>Upon the morn, be I alive,</l>
+               <l>If I dow either lead or drive,</l>
+               <l>With dogs ye ſhall me rug and rive,</l>
+               <l>if I make not for <hi>Currie.</hi>
+               </l>
+            </lg>
+            <lg n="23">
+               <head>23.</head>
+               <l>Thus he, bewailing her punition,</l>
+               <l>Did leave her upon that condition,</l>
+               <l>And ſhe, but any requiſition,</l>
+               <l>came down to the killogie,</l>
+               <l>Where ſhe thought to have lodg'd all night,</l>
+               <l>And eaſe her the beſt way ſhe might:</l>
+               <l>But a falſe lown ſoon ſaw that fighr,</l>
+               <l>whoſe name was <hi>Willie Scrogie,</hi>
+               </l>
+            </lg>
+            <pb n="10" facs="tcp:175632:6"/>
+            <lg n="24">
+               <head>24.</head>
+               <l>Who came and took her by the beugh,</l>
+               <l>And, with a rung both long and teugh,</l>
+               <l>Laid on her, while ſhe bled enough,</l>
+               <l>and for dead left her lying</l>
+               <l>Into a deadly ſwown and trance,</l>
+               <l>Bewailing fortunes variance,</l>
+               <l>Her hard miſlucks, and heavy chance,</l>
+               <l>for help and pitty crying.</l>
+            </lg>
+            <lg n="25">
+               <head>25.</head>
+               <l>But what ſhould any further ſpeaking?</l>
+               <l>For all her wofull cryes and greeting,</l>
+               <l>Her loving words and fair intreating,</l>
+               <l>(theſe fellows were ſo tyked)</l>
+               <l>To her they would make no ſupplie,</l>
+               <l>Nor yet let her remaining be</l>
+               <l>Among them but two dayes or three,</l>
+               <l>ſay to them what ſhe liked.</l>
+            </lg>
+            <lg n="26">
+               <head>26.</head>
+               <l>This ſilly beaſt, being thus confounded,</l>
+               <l>So deadly hurt, miſ-uſ'd and wounded,</l>
+               <l>With miſeent dogs ſo chaſ'd and wounded,</l>
+               <l>in end directs a letter</l>
+               <l>Of ſupplication, with <hi>John Aird,</hi>
+               </l>
+               <l>To purchaſe licenſe from the Laird,</l>
+               <l>That ſhe might bide about the yaird</l>
+               <l>while ſhe grew ſomewhat better.</l>
+            </lg>
+            <lg n="27">
+               <head>27.</head>
+               <l>But he would no wayes condeſcend</l>
+               <l>To go the meſſage ſhe did ſend,</l>
+               <l>For fear he ſhould the Laird offend</l>
+               <l>but bade her ſend <hi>John Durie.</hi>
+               </l>
+               <pb n="11" facs="tcp:175632:6"/>
+               <l>And when they were in all their doubts,</l>
+               <l>A Meſſenger, whoſe name was <hi>Couts,</hi>
+               </l>
+               <l>(A vengeance light on all their ſnouts)</l>
+               <l>came on her in a furie,</l>
+            </lg>
+            <lg n="28">
+               <head>28.</head>
+               <l>Who did take forth his Sergeants wand,</l>
+               <l>And gave to her a ſtrait command,</l>
+               <l>The ſelf ſame night to leave that land,</l>
+               <l>or on the morn to burn her.</l>
+               <l>Then was this beaſt ſo ſore amazed,</l>
+               <l>Into his face ſhe glowr'd and gazed,</l>
+               <l>And wiſt not well, ſhe was ſo bazed,</l>
+               <l>to what hand for to turn her:</l>
+            </lg>
+            <lg n="29">
+               <head>29.</head>
+               <l>But fell down on her ſilly knees,</l>
+               <l>And upwards lifting up her eyes,</l>
+               <l>Said, <hi>Cou's,</hi> my miſery thou ſees,</l>
+               <l>wherefore do not deride it:</l>
+               <l>But ponder my diſtreſt eſtate,</l>
+               <l>How I am handled, and what gate,</l>
+               <l>For I dow make no more debate:</l>
+               <l>no longer can I bide it.</l>
+            </lg>
+            <lg n="30">
+               <head>30.</head>
+               <l>Then did ſhe, half-long in deſpair,</l>
+               <l>Withdraw her to a place, even where</l>
+               <l>She thought there ſhould be leaſt repair,</l>
+               <l>and that none ſhould come near her;</l>
+               <l>But ſhe got never perfect reſt,</l>
+               <l>Go where ſhe liſt ſhe was oppreſt;</l>
+               <l>Wherefore in end it was thought beſt</l>
+               <l>with men away to bear her.</l>
+            </lg>
+            <pb n="12" facs="tcp:175632:7"/>
+            <lg n="31">
+               <head>31.</head>
+               <l>And ſo <hi>Rob Rodger,</hi> in an anger,</l>
+               <l>And <hi>Will Thomſon,</hi> who ay bade hang her,</l>
+               <l>By ſting and ling they did up-bang her,</l>
+               <l>and bure her down between them</l>
+               <l>To <hi>Duncan</hi>'s burn, and there, but dread,</l>
+               <l>They left her, and came home good ſpeed:</l>
+               <l>Ye would have laughen well, indeed,</l>
+               <l>ſo pudled to have ſeen them;</l>
+            </lg>
+            <lg n="32">
+               <head>32.</head>
+               <l>For <hi>Willie Thomſon,</hi> well I ween,</l>
+               <l>Fell in a pool o're both the eyne,</l>
+               <l>And never left a bit of him clean,</l>
+               <l>ſo through the dubs him caried:</l>
+               <l>And <hi>Rob,</hi> who took in hand to guide him,</l>
+               <l>O're both his lugs he fell beſide him,</l>
+               <l>Then ſtole away for ſhame to hide him,</l>
+               <l>he was ſo well begaried.</l>
+            </lg>
+            <lg n="33">
+               <head>33.</head>
+               <l>This being done, but any mair</l>
+               <l>Theſe two they left her lying there,</l>
+               <l>Suppreſt with dolour, grief and care:</l>
+               <l>who made this proteſtation,</l>
+               <l>If any perſon, far or near,</l>
+               <l>Within this Pariſh, would compear,</l>
+               <l>To lend her but ten ſhillings here,</l>
+               <l>upon her obligation.</l>
+            </lg>
+            <lg n="34">
+               <head>34.</head>
+               <l>When the cleck-Geeſe leave off to clatter,</l>
+               <l>And Paraſites to flietch and flatter,</l>
+               <l>And Prieſts their Matine to pitter, patter,</l>
+               <l>and theeves from theft refrain:</l>
+               <pb n="13" facs="tcp:175632:7"/>
+               <l>Or yet again, when there ſhall be</l>
+               <l>No water in the Ocean ſea,</l>
+               <l>Then ſhe that ſumme right thankfullie</l>
+               <l>ſhould pay them home again.</l>
+            </lg>
+            <lg n="35">
+               <head>35.</head>
+               <l>But oh! alace, for all her moan,</l>
+               <l>In all theſe parts there was not one</l>
+               <l>Would condeſcend to lend that loan</l>
+               <l>for never one did mean her.</l>
+               <l>And ſo, alace, ſhe lay ſtill there</l>
+               <l>But meat and drink eight dayes and mair:</l>
+               <l>It would have made a whole heart fair</l>
+               <l>in that caſe to have ſeen her.</l>
+            </lg>
+            <lg n="36">
+               <head>36.</head>
+               <l>Yet honeſt <hi>Antie,</hi> in the Place,</l>
+               <l>Came and beheld her pale-cold face,</l>
+               <l>And ſaid, for evermore alace,</l>
+               <l>I ſee thee ſo miſchieved,</l>
+               <l>Had I known of thy wearineſſe,</l>
+               <l>Thy miſery and great diſtreſſe,</l>
+               <l>I ſhould have helped more or leſſe,</l>
+               <l>and ſo thy ſtrait relieved:</l>
+            </lg>
+            <lg n="37">
+               <head>37.</head>
+               <l>I ſhould have put thee in the Bank,</l>
+               <l>Where nettles, graſſe and weeds grew rank,</l>
+               <l>Where well thou might have fill'd thy flank,</l>
+               <l>and fed among the willies:</l>
+               <l>Or otherwiſe, to have rejoic'd thee,</l>
+               <l>Within the Ward I might have cloſ'd thee,</l>
+               <l>Where well thou mighteſt have repoſ'd thee</l>
+               <l>among the Lairds beſt Fillies</l>
+            </lg>
+            <pb n="14" facs="tcp:175632:8"/>
+            <lg n="38">
+               <head>38.</head>
+               <l>To whom this beaſt ſaid ſoberly,</l>
+               <l>Sweet Miſtreſſe, I moſt heartfully</l>
+               <l>Do thank you for your curteſie,</l>
+               <l>ſo friendly who hath uſ'd me,</l>
+               <l>Who hath ſo lovingly reported,</l>
+               <l>And alſo ſweetly me comforted,</l>
+               <l>And with your almes me ſupported,</l>
+               <l>when all my kin refuſ'd me.</l>
+            </lg>
+            <lg n="39">
+               <head>39.</head>
+               <l>Yet more attoure, ſince there is none</l>
+               <l>To whom that I can make my moan,</l>
+               <l>But, ſweet Miſtreſſe, to you alone,</l>
+               <l>before thoſe villains gore me;</l>
+               <l>Though I have neither gear nor gains</l>
+               <l>For to preſent you for your pains,</l>
+               <l>If it perturb not all your brains,</l>
+               <l>yet this one thing do for me,</l>
+            </lg>
+            <lg n="40">
+               <head>40.</head>
+               <l>Go to the <hi>Cook</hi> with ſpeedy haſte,</l>
+               <l>And run as faſt as ye were chaſte,</l>
+               <l>And tell that I am dead almaiſt,</l>
+               <l>and if ye can allure him</l>
+               <l>A diſhfull of his broth to ſend me,</l>
+               <l>Which from this cold night may defend me,</l>
+               <l>And if it prove a help to mend me,</l>
+               <l>upon my word aſſure him:</l>
+            </lg>
+            <lg n="41">
+               <head>41.</head>
+               <l>When winter cold ſhall be but froſt,</l>
+               <l>And wives for maſtery ſhall not boaſt,</l>
+               <l>And men of Law wait on but coſt,</l>
+               <l>and Uſurers take no gains,</l>
+               <pb n="15" facs="tcp:175632:8"/>
+               <l>Or when ye ſhall ſee <hi>Pentland</hi> hills</l>
+               <l>Being carried down among <hi>Leith</hi> Mills,</l>
+               <l>Then I, with twenty and moe good-wills,</l>
+               <l>ſhall pleaſe him for his pains.</l>
+            </lg>
+            <lg n="42">
+               <head>42.</head>
+               <l>This meſſage <hi>Antie</hi> undertook,</l>
+               <l>And ſpeedily ran to the <hi>Cook,</hi>
+               </l>
+               <l>Who found him fitting in the nook:</l>
+               <l>and, as ſhe was deſired,</l>
+               <l>Requeſted him right earneſtly</l>
+               <l>To ſend this ſilly beaſt ſupply,</l>
+               <l>And he again right thankfully</l>
+               <l>did as he was required,</l>
+            </lg>
+            <lg n="43">
+               <head>43.</head>
+               <l>And, without grudging or debate,</l>
+               <l>Did ſend a meikle charger-plate</l>
+               <l>Full of good broth hynd down the gate,</l>
+               <l>and bade her take a care od.</l>
+               <l>And with her ſelf likewiſe conclude,</l>
+               <l>That if ſhe thought it wholſome food,</l>
+               <l>And if it did her any good,</l>
+               <l>the morn ſhe ſhould have mair od.</l>
+            </lg>
+            <lg n="44">
+               <head>44.</head>
+               <l>But fra the time this wraiked beaſt</l>
+               <l>Perceiv'd the broth go down her breaſt,</l>
+               <l>Her tongue from crying never ceaſt,</l>
+               <l>till ſhe had made confeſſion.</l>
+               <l>And ſo came by Sir <hi>Thomas Grant,</hi>
+               </l>
+               <l>About the <hi>Shines</hi> who oft did haunt,</l>
+               <l>Who thought if ſhe did witneſſe want</l>
+               <l>to hear't, it were oppreſſion.</l>
+            </lg>
+            <pb n="16" facs="tcp:175632:9"/>
+            <lg n="45">
+               <head>45.</head>
+               <l>Wherefore he ſaid unto this Meir,</l>
+               <l>I ſee thy death approacheth near,</l>
+               <l>Then ſee that thou be very clear</l>
+               <l>for death to make thee ready;</l>
+               <l>For I ſee, by thy viſage pale.,</l>
+               <l>Nothing but death for thee but fail:</l>
+               <l>As freely then tell me your tale,</l>
+               <l>as if I were your deddie.</l>
+            </lg>
+            <lg n="46">
+               <head>46.</head>
+               <l>Then up ſhe hoov'd her hinder heels,</l>
+               <l>And ſaid, (when ſhe lay in the fields)</l>
+               <l>Though ye with me ſhould caſt the creils,</l>
+               <l>and of your help refuſe me,</l>
+               <l>I will no wayes at all think ſhame,</l>
+               <l>Though it be contrare to a good name,</l>
+               <l>To you, ſweet father, to proclaim</l>
+               <l>how long time they did uſe me.</l>
+            </lg>
+            <lg n="47">
+               <head>47.</head>
+               <l>My Maſter was a ſimple man,</l>
+               <l>Who had nothing but what he wan</l>
+               <l>By cadging hether now and then:</l>
+               <l>at <hi>Bavelaw</hi> was his winning.</l>
+               <l>My huſſie likewiſe was a wife</l>
+               <l>Ay holding into ſturt and ſtrife,</l>
+               <l>Who had nothing, during her life,</l>
+               <l>but what ſhe wan by ſpinning.</l>
+            </lg>
+            <lg n="48">
+               <head>48.</head>
+               <l>And I was towſled up and down,</l>
+               <l>With hether-cadging to the Town,</l>
+               <l>For fault of food whiles like to ſwown,</l>
+               <l>for all that ever I wan them;</l>
+               <pb n="17" facs="tcp:175632:9"/>
+               <l>But I think plain neceſſitie</l>
+               <l>Was it why ſo they uſed me,</l>
+               <l>Wherefore I think aſſuredly</l>
+               <l>I have no cauſe to ban them.</l>
+            </lg>
+            <lg n="49">
+               <head>49.</head>
+               <l>But yet, becauſe they uſ'd me ſo,</l>
+               <l>I thought to make their hearts as woe,</l>
+               <l>Once to the Butler I did go,</l>
+               <l>poſtponing every perrill,</l>
+               <l>Where I found rought but two ſheep breeds,</l>
+               <l>Some haggiſe bags, and two nolt heads,</l>
+               <l>With two'r three pecks of ſowing ſeeds</l>
+               <l>well tramped in a barrell.</l>
+            </lg>
+            <lg n="50">
+               <head>50.</head>
+               <l>I took the ſeeds where I thought beſt,</l>
+               <l>With hunger being ſo ſore oppreſt,</l>
+               <l>And ate of them while they might laſt,</l>
+               <l>when all the reſt were fleeping:</l>
+               <l>Syne privily I did me hy</l>
+               <l>Into the ſtable near hand by,</l>
+               <l>Which is the place wherein I ly,</l>
+               <l>on hands and feet faſt creeping.</l>
+            </lg>
+            <lg n="51">
+               <head>51.</head>
+               <l>But oh, I dought not ſleep a wink</l>
+               <l>For droughth, but came back to the bink,</l>
+               <l>Where that I took a meikle drink;</l>
+               <l>but it was very bitter,</l>
+               <l>I trow my huſſie <hi>Meg</hi> had piſht it,</l>
+               <l>And up upon the bink had diſht it,</l>
+               <l>Oh if that I had never touch'd it,</l>
+               <l>it gart me take the sk—.</l>
+            </lg>
+            <pb n="18" facs="tcp:175632:10"/>
+            <lg n="52">
+               <head>52.</head>
+               <l>But good <hi>John Smith,</hi> my maſter dear,</l>
+               <l>Upon the morn, ere day grew clear,</l>
+               <l>Before his wife he did compear,</l>
+               <l>and ſaid to her, My Lady,</l>
+               <l>Riſe up. I pray you, with good ſpeed,</l>
+               <l>Hang on the Sowings: for, indeed</l>
+               <l>I trow ye be right ſcant of bread,</l>
+               <l>ſome hot thing ſoon make ready.</l>
+            </lg>
+            <lg n="53">
+               <head>53.</head>
+               <l>The wife, expecting for none ill,</l>
+               <l>Roſe up, his bidding to fulfill,</l>
+               <l>With merry heart and right good will,</l>
+               <l>to make for ſome proviſion;</l>
+               <l>But when ſhe miſt the ſeeds away,</l>
+               <l>She wiſt not what to do or ſay,</l>
+               <l>Cry'd many alas and wail-away,</l>
+               <l>and ſaid, <hi>John,</hi> in deriſion,</l>
+            </lg>
+            <lg n="54">
+               <head>54.</head>
+               <l>I trow ye cry for your disjoon:</l>
+               <l>When were ye wont to cry ſo ſoon?</l>
+               <l>It is your ſelf this deed hath done,</l>
+               <l>and that hath made concluſion</l>
+               <l>Of all the ſeeds we got in <hi>Nortoun:</hi>
+               </l>
+               <l>Or elſe it hath been gleed <hi>Will Mortoun;</hi>
+               </l>
+               <l>Ill be his chance, his hap and fortune</l>
+               <l>who hath wrought this confuſion.</l>
+            </lg>
+            <lg n="55">
+               <head>55.</head>
+               <l>When ſhe was making all this mane,</l>
+               <l>And had him told that all was gane,</l>
+               <l>A race to her the Carle hath tane,</l>
+               <l>as faſt as he might bicker,</l>
+               <pb n="19" facs="tcp:175632:10"/>
+               <l>And hit her ſuch a ſtroak but dread,</l>
+               <l>While he thought well ſhe had been dead:</l>
+               <l>For he had hit her on the head</l>
+               <l>a ſad ſtroak and a ſicker.</l>
+            </lg>
+            <lg n="56">
+               <head>56.</head>
+               <l>So when, with a long heavy rung,</l>
+               <l>I did perceive my Huſſie dung,</l>
+               <l>I lay ſtone-ſtill and held my tongue,</l>
+               <l>and felloun cloſſe I held me:</l>
+               <l>For, if they had had any feel</l>
+               <l>That I had made them ſuch a reel,</l>
+               <l>The one of them, I wot right well</l>
+               <l>but queſtion, would have fell'd me.</l>
+            </lg>
+            <lg n="57">
+               <head>57.</head>
+               <l>Now this is the worſt turn, I ſay,</l>
+               <l>That ever I did by night or day;</l>
+               <l>Wherefore, ſweet father, I you pray,</l>
+               <l>ſince ye hear my confeſſion,</l>
+               <l>That, in this place, before I die,</l>
+               <l>You grant me pardon chearfully:</l>
+               <l>For that, I wot aſſuredly,</l>
+               <l>belongs to your profeſſion.</l>
+            </lg>
+            <lg n="58">
+               <head>58.</head>
+               <l>Then ſpake this Father venerable</l>
+               <l>To her this ſentence comfortable,</l>
+               <l>As I a man am trowable,</l>
+               <l>I ſay this in ſubmiſſion,</l>
+               <l>Since ye deſire to be remitted</l>
+               <l>Of all the faults ye have committed,</l>
+               <l>(Now ſurely on the head I hit it)</l>
+               <l>I grant you full remiſſion.</l>
+            </lg>
+            <pb n="20" facs="tcp:175632:11"/>
+            <lg n="59">
+               <head>59.</head>
+               <l>Then was ſhe blyth, and ſaid, I think</l>
+               <l>That I am one begins to wink,</l>
+               <l>Sweet father, now take pen and ink,</l>
+               <l>and write as I command you:</l>
+               <l>For on my credit I dare ſwear</l>
+               <l>It was ſome good thing brought you here;</l>
+               <l>Recorded be the time and year,</l>
+               <l>and day that ever I found you.</l>
+            </lg>
+            <lg n="60">
+               <head>60.</head>
+               <l>And firſt write, that it pleaſeth me,</l>
+               <l>My body be ſolemnedlie</l>
+               <l>Laid in that place, with honeſty,</l>
+               <l>where ly my predeceſſours.</l>
+               <l>I nominate my Maſter <hi>John,</hi>
+               </l>
+               <l>And his good-brother <hi>Tom Gillon,</hi>
+               </l>
+               <l>Executors to me alone;</l>
+               <l>theſe two are no oppreſſours.</l>
+            </lg>
+            <lg n="61">
+               <head>61.</head>
+               <l>I know they will do nought but right</l>
+               <l>To me and mine: for many a night</l>
+               <l>I did them pleaſure, as I might,</l>
+               <l>whereof you may aſſure them:</l>
+               <l>For often times I would them take,</l>
+               <l>Even as a Chap-man doth his pack,</l>
+               <l>Upon my ſilly feeble back,</l>
+               <l>and through the dubs I bure them.</l>
+            </lg>
+            <lg n="62">
+               <head>62.</head>
+               <l>I leave them therefore power all</l>
+               <l>To meddle with debts great and ſmall,</l>
+               <l>And with all things in generall</l>
+               <l>that any way belangs me.</l>
+               <pb n="21" facs="tcp:175632:11"/>
+               <l>Firſt, I am owing to <hi>Andro Rid</hi>
+               </l>
+               <l>At the Weſt-port, for ſix gray bread</l>
+               <l>Five ſhilling, for the which indeed</l>
+               <l>he and his wife ov'rgangs me.</l>
+            </lg>
+            <lg n="63">
+               <head>63.</head>
+               <l>And, in my great neceſſitie,</l>
+               <l>
+                  <hi>Tom Linkie</hi>'s wife ſhe furniſht me</l>
+               <l>As me<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>kle draff, of veritie,</l>
+               <l>the laſt day of <hi>December,</hi>
+               </l>
+               <l>As, by the laſt count we did make,</l>
+               <l>Came to five ſhilling and a plack,</l>
+               <l>Well counted before old <hi>John Black.</hi>
+               </l>
+               <l>if I do right remember.</l>
+            </lg>
+            <lg n="64">
+               <head>64.</head>
+               <l>There is a cankard Carle ſiklike,</l>
+               <l>Whom I have born ov'r many a Tyke,</l>
+               <l>They call him <hi>Jockie</hi> in the <hi>Dyke:</hi>
+               </l>
+               <l>(I had almoſt forgot it)</l>
+               <l>Some nights, when I could not win hame,</l>
+               <l>To tell the truth I think no ſhame,</l>
+               <l>For draff and ſatlings to my wame</l>
+               <l>ſix placks I am addebted.</l>
+            </lg>
+            <lg n="65">
+               <head>65.</head>
+               <l>Now, ſo far as I underſtand,</l>
+               <l>I owe no more in all this land,</l>
+               <l>But to a ſilly Collibrand,</l>
+               <l>
+                  <hi>Tom Rid,</hi> that dwells in <hi>Currie:</hi>
+               </l>
+               <l>Upon a time, as he may prove,</l>
+               <l>An Acheſon for a remove:</l>
+               <l>But it was little for my behove,</l>
+               <l>I pray nor he may worrie.</l>
+            </lg>
+            <pb n="22" facs="tcp:175632:12"/>
+            <lg n="66">
+               <head>66.</head>
+               <l>There is a man they call <hi>John Blair,</hi>
+               </l>
+               <l>Beſide the <hi>Howps</hi> who makes repair,</l>
+               <l>Him did I ſerve ſeven years and mair,</l>
+               <l>but I ſaw never his coynzie:</l>
+               <l>And in my need and povertie,</l>
+               <l>My ſickneſſe and calamitie,</l>
+               <l>That ſame Carle never viſit me;</l>
+               <l>now pox light on his groynzie.</l>
+            </lg>
+            <lg n="67">
+               <head>67.</head>
+               <l>The thing to me he is addebtit</l>
+               <l>I purpoſe not ov'r high to ſet it,</l>
+               <l>It is, if I have not forget it,</l>
+               <l>by our juſt calculation,</l>
+               <l>Three pound, wherewith, but dilatours,</l>
+               <l>I ordain my executours</l>
+               <l>To gang amongſt my creditours,</l>
+               <l>and, to their contentation,</l>
+            </lg>
+            <lg n="68">
+               <head>68.</head>
+               <l>Off the firſt end, right chearfullie</l>
+               <l>Content them all with honeſtie,</l>
+               <l>Leſt afterward they warie me,</l>
+               <l>when I may not amend it:</l>
+               <l>And to ſuch as are deſtitute</l>
+               <l>Of worldly goods, I conſtitute</l>
+               <l>That all the reſt be diſtribute,</l>
+               <l>ſo ſoon's my life is ended.</l>
+            </lg>
+            <lg n="69">
+               <head>69.</head>
+               <l>I have not meikle mair free gear,</l>
+               <l>In very deed, to ſpeak of here:</l>
+               <l>But had I liv'd another year,</l>
+               <l>if folks had been good willie,</l>
+               <pb n="23" facs="tcp:175632:12"/>
+               <l>I had had more: yet will I ſhaw</l>
+               <l>The thing I have, but any aw,</l>
+               <l>I have into the Caſtle law</l>
+               <l>a Meir, but and a Fillie.</l>
+            </lg>
+            <lg n="70">
+               <head>70.</head>
+               <l>My will is, and I leave the Meirie</l>
+               <l>To one, they call him <hi>John Mackcliric,</hi>
+               </l>
+               <l>Becauſe of foot he is not feirie,</l>
+               <l>and may not deal with travell:</l>
+               <l>For in his youth that Carle uſ'd ay</l>
+               <l>With wenches for to ſport and play,</l>
+               <l>Wherethrough he hath, this many a day,</l>
+               <l>been troubled with the gravell.</l>
+            </lg>
+            <lg n="71">
+               <head>71.</head>
+               <l>I leave the Fillie to <hi>John Kilmanie,</hi>
+               </l>
+               <l>An honeſt Maſter in <hi>Balenis,</hi>
+               </l>
+               <l>The which if it be poor and banie,</l>
+               <l>yet, if it be well uſed,</l>
+               <l>It will do good: for oft times ſaid I,</l>
+               <l>I might have had for it already,</l>
+               <l>From my ſweet maſters luckie deddie,</l>
+               <l>five crowns, which was refuſed.</l>
+            </lg>
+            <lg n="72">
+               <head>72.</head>
+               <l>My halter and my four new ſhods,</l>
+               <l>My turſ-rapes, curpell, and my ſods,</l>
+               <l>I liſt not let them gang to ods,</l>
+               <l>for that indeed would grieve me;</l>
+               <l>I leave them therefore to <hi>Tom Stean,</hi>
+               </l>
+               <l>Who hath his winning on <hi>Smiddie-gre<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>n:</hi>
+               </l>
+               <l>For many a night, right late at even,</l>
+               <l>that poor man did relieve me.</l>
+            </lg>
+            <pb n="24" facs="tcp:175632:13"/>
+            <lg n="73">
+               <head>73.</head>
+               <l>My mane, my tail, and all my hair</l>
+               <l>I leave, but any proceſſe mair,</l>
+               <l>To <hi>Cheaſly, Nol man</hi> and <hi>Tom Blair,</hi>
+               </l>
+               <l>three Fiſhers of vocation:</l>
+               <l>For, oft times when it would be late,</l>
+               <l>And might not make no more debate,</l>
+               <l>Theſe three would lodge me by the gate,</l>
+               <l>and give me ſuſtentation.</l>
+            </lg>
+            <lg n="74">
+               <head>74.</head>
+               <l>I leave my bonie, round, white teeth</l>
+               <l>To <hi>Willie Friſſel</hi> into <hi>Lieth:</hi>
+               </l>
+               <l>For, on a time when <hi>Jennie Keith</hi>
+               </l>
+               <l>with plotted broe demaim'd me,</l>
+               <l>He fed me in his houſe, all haile</l>
+               <l>Eight dayes with good fleſh, broe and kaile,</l>
+               <l>And oftentimes with bread and aile,</l>
+               <l>where worſe chear might have gain'd me.</l>
+            </lg>
+            <lg n="75">
+               <head>75.</head>
+               <l>To honeſt <hi>Antie</hi> in <hi>Collingtoun</hi>-Place,</l>
+               <l>(My bleſſing light upon her face)</l>
+               <l>Who was my friend in every caſe,</l>
+               <l>I cannot well forget her,</l>
+               <l>I leave her therefore, to her part,</l>
+               <l>My true, my kind and tender heart:</l>
+               <l>For, into many a grief and ſmart,</l>
+               <l>of her I was the better.</l>
+            </lg>
+            <lg n="76">
+               <head>76.</head>
+               <l>I leave the creiſh within my wame,</l>
+               <l>With all my heart, to <hi>Finlay Grame:</hi>
+               </l>
+               <l>It will be better nor ſwine-ſame</l>
+               <l>for any wramp or meinzie;</l>
+               <pb n="25" facs="tcp:175632:13"/>
+               <l>Firſt, ſhear it ſmall, and rynde it ſyne</l>
+               <l>Into a kettle clean and fyne,</l>
+               <l>It will be good againſt the pine</l>
+               <l>of any wreſt or ſtreinzie.</l>
+            </lg>
+            <lg n="77">
+               <head>77.</head>
+               <l>I leave my liver, puds and trypes</l>
+               <l>To the two brethren in the <hi>Snypes,</hi>
+               </l>
+               <l>Who, though they be but greedy gypes,</l>
+               <l>yet, being once in <hi>Cramend</hi>
+               </l>
+               <l>Storm-ſted, and in great miſery,</l>
+               <l>For very hunger like to die,</l>
+               <l>Did give me lodging chearfully,</l>
+               <l>and fed me well with Samond.</l>
+            </lg>
+            <lg n="78">
+               <head>78.</head>
+               <l>My two gray eyes, like criſtall clear,</l>
+               <l>Wherefrom great brightneſſe did appear,</l>
+               <l>I leave, in this my Teſſment here,</l>
+               <l>to ſilly <hi>John Mackwhirrie:</hi>
+               </l>
+               <l>For, going wild into the night</l>
+               <l>Beſide <hi>Black-bavelaw</hi> on the height,</l>
+               <l>He took me to an aile-houſe right,</l>
+               <l>and made me to be merry.</l>
+            </lg>
+            <lg n="79">
+               <head>79.</head>
+               <l>I leave my tongue Rhethoricall,</l>
+               <l>My dulce voice, ſweet and muſicall,</l>
+               <l>And all my Science naturall</l>
+               <l>to good ſweet Maſter <hi>Matho:</hi>
+               </l>
+               <l>For, when I was, with <hi>Mortoun</hi> Dogs.</l>
+               <l>Ov'r bladded through their ſtanks and bogs;</l>
+               <l>And had ſtood three dayes in the jogs,</l>
+               <l>within the town of <hi>Ratho:</hi>
+               </l>
+            </lg>
+            <pb n="26" facs="tcp:175632:14"/>
+            <lg n="80">
+               <head>80.</head>
+               <l>He came, into a morning ſoon,</l>
+               <l>And gave contentment, long ere noon,</l>
+               <l>To all to whom I wrong had done,</l>
+               <l>ſyne ſent me with a letter,</l>
+               <l>With expedition down to <hi>Cammock,</hi>
+               </l>
+               <l>Where that, for to refreſh my ſtomack,</l>
+               <l>I was receiv'd, and fed with drammock,</l>
+               <l>eight dayes, and with the better.</l>
+            </lg>
+            <lg n="81">
+               <head>81.</head>
+               <l>I leave my head to <hi>Sandy Pardie,</hi>
+               </l>
+               <l>A man, whereof I think him worthie:</l>
+               <l>For once, when that I took the ſturdie,</l>
+               <l>that man, but any grudging,</l>
+               <l>Made me great ſuccour and ſupply,</l>
+               <l>And uſed me right tenderly,</l>
+               <l>And gave me food abundantly,</l>
+               <l>two weeks within his lodging.</l>
+            </lg>
+            <lg n="82">
+               <head>82.</head>
+               <l>I leave to <hi>Claud</hi> in <hi>Hermiſtoun,</hi>
+               </l>
+               <l>For his bounteth and wariſoun,</l>
+               <l>My hyde, with my brade benniſoun,</l>
+               <l>to be a pair of bellies;</l>
+               <l>For, when he found me lying ſick</l>
+               <l>At <hi>Gogar</hi> bridge, and dought not ſpeak,</l>
+               <l>Upon his back he did me cleik,</l>
+               <l>and bore me to Laird <hi>Skeldies.</hi>
+               </l>
+            </lg>
+            <lg n="83">
+               <head>83.</head>
+               <l>To theſe fellows of <hi>Collingtoun,</hi>
+               </l>
+               <l>Who brought me to contention,</l>
+               <l>I leave them my black maliſoun;</l>
+               <l>for here I do proteſt it,</l>
+               <pb n="27" facs="tcp:175632:14"/>
+               <l>If theſe men had licentiat me</l>
+               <l>To have had biding, two nights or three,</l>
+               <l>Among the broom, where quietly</l>
+               <l>I might have lyen and reſted,</l>
+            </lg>
+            <lg n="84">
+               <head>84.</head>
+               <l>I had not then, with every Lown,</l>
+               <l>With every Butcher up and down,</l>
+               <l>Been bladded ſo from town to town,</l>
+               <l>nor gotten ſuch oppreſſion;</l>
+               <l>Nor yet had been in ſuch a blunder,</l>
+               <l>Nor made of ſuch a worlds wonder;</l>
+               <l>I wiſh mae miſchiefs nor a hunder</l>
+               <l>on them and their ſucceſſion.</l>
+            </lg>
+            <lg n="85">
+               <head>85.</head>
+               <l>Now, ſweet Sir <hi>Thomas,</hi> earneſtly</l>
+               <l>I pray you let me hear and ſee</l>
+               <l>If that my Will and Legacie</l>
+               <l>be done as I directed:</l>
+               <l>For ſome ſuſpition even now bred I,</l>
+               <l>That you are grieved, luckie-deddy,</l>
+               <l>In that I have diſpatch'd already</l>
+               <l>my goods, and you're neglected.</l>
+            </lg>
+            <lg n="86">
+               <head>86.</head>
+               <l>But ſurely, Sir, the reaſon why</l>
+               <l>That I did ſo, and ſet you by,</l>
+               <l>It was indeed, becauſe that I</l>
+               <l>knew not that you were needy:</l>
+               <l>And next again, as reaſon ſhawes,</l>
+               <l>I did it for another cauſe,</l>
+               <l>Which is, that all the world knawes</l>
+               <l>that ſuch men are not greedy.</l>
+            </lg>
+            <pb n="28" facs="tcp:175632:15"/>
+            <lg n="87">
+               <head>87.</head>
+               <l>To whom Sir <hi>Thomas</hi> ſoberly</l>
+               <l>Did anſwer make, and ſaid, truly</l>
+               <l>All things, as ye commanded me,</l>
+               <l>are orderly perfected:</l>
+               <l>Therefore of that take you no care,</l>
+               <l>And of that matter ſpeak no mair,</l>
+               <l>Think on your ſickneſſe and your ſair;</l>
+               <l>as for your gear, I quite it.</l>
+            </lg>
+            <lg n="88">
+               <head>88.</head>
+               <l>Then for finall concluſion,</l>
+               <l>This poor beaſt on her knees fell down,</l>
+               <l>And ſaid, Sir, for my benniſoun,</l>
+               <l>ſince death thinks to betray me:</l>
+               <l>And ſince I clearly do perceive</l>
+               <l>That, of my breath and all the leave</l>
+               <l>Of the five ſenſes that I have,</l>
+               <l>death threatens to be wray me;</l>
+            </lg>
+            <lg n="89">
+               <head>89.</head>
+               <l>I you beſeech moſt earneſtly,</l>
+               <l>Of your gentrice and curteſie,</l>
+               <l>To go to <hi>Bavelaw</hi> ſoon for me,</l>
+               <l>and there, with expedition,</l>
+               <l>Show to <hi>John Smith,</hi> my Maſter dear.</l>
+               <l>That I am ſore-ſick lying here,</l>
+               <l>At point of death, and dow not ſtear,</l>
+               <l>and make him requiſition</l>
+            </lg>
+            <lg n="90">
+               <head>90.</head>
+               <l>For to come down peremptorly</l>
+               <l>The morn, about two hours or three,</l>
+               <l>To <hi>Gorgie</hi>-Mill, where publikely</l>
+               <l>I will repeat this ſentence,</l>
+               <pb n="29" facs="tcp:175632:15"/>
+               <l>That, I dare ſay in verity,</l>
+               <l>It were great pleaſure unto me</l>
+               <l>That we ſhould meet before I die,</l>
+               <l>for honeſt old acquaintance.</l>
+            </lg>
+            <lg n="91">
+               <head>91.</head>
+               <l>Sir <hi>Thomas</hi> then began to clatter,</l>
+               <l>And told, that he would no wayes flatter,</l>
+               <l>But plainly to her ſhow the matter,</l>
+               <l>ſyne ſaid to her, My dearie,</l>
+               <l>Ly ſtill and reſt you; for I think</l>
+               <l>That I ſhall neither eat nor drink,</l>
+               <l>Nor with mine eyes ſhall ſleep a wink,</l>
+               <l>though I were ne're ſo weary,</l>
+            </lg>
+            <lg n="92">
+               <head>92.</head>
+               <l>While all and whole your laſt direction</l>
+               <l>Be done and ended but defection:</l>
+               <l>Then unto <hi>Pluto</hi> his protection</l>
+               <l>he heartfully bequeath'd her,</l>
+               <l>And ran to <hi>Bavelaw</hi> with good will,</l>
+               <l>Brought down <hi>John Smith</hi> to <hi>Gorgie,</hi> Mill,</l>
+               <l>Who, ſo ſoon as he came her till,</l>
+               <l>into his armes he caught her;</l>
+            </lg>
+            <lg n="93">
+               <head>93.</head>
+               <l>And ſaid, alace for evermair</l>
+               <l>That I ſhould ſee thee lying there</l>
+               <l>So comfortleſſe, both ſick and ſair,</l>
+               <l>ſo helpleſſe, poor and needy,</l>
+               <l>So brniſ'd and birſ'd, ſo black and blae,</l>
+               <l>So ill demaim'd from top to tae;</l>
+               <l>Alace that I ſhould leave thee ſa,</l>
+               <l>fy, is there no remcedy.</l>
+            </lg>
+            <pb n="30" facs="tcp:175632:16"/>
+            <lg n="94">
+               <head>94.</head>
+               <l>Alace for evermore, alace!</l>
+               <l>This is a dolorous dolefull caſe</l>
+               <l>To me, to ſee that well favour'd</l>
+               <l>face and countenance ſo guided:</l>
+               <l>Now where are thoſe two clear bright eyne</l>
+               <l>Into thy head which I have ſeen,</l>
+               <l>That now are made ſo yellow and green?</l>
+               <l>oh! I cannot abide it.</l>
+            </lg>
+            <lg n="95">
+               <head>95.</head>
+               <l>Oh and alace, and harmes ay!</l>
+               <l>Dolour and dool fell me this day:</l>
+               <l>What ſhall I either do or ſay?</l>
+               <l>this is a dolefull meeting.</l>
+               <l>To whom this Beaſt, with voice moſt weak,</l>
+               <l>Said, Maſter, my heart do not break,</l>
+               <l>Let ſorrow be, ſome comfort take,</l>
+               <l>I dow not bide your greeting:</l>
+            </lg>
+            <lg n="96">
+               <head>96.</head>
+               <l>Your ſighs, your ſobs, your mourning ſair</l>
+               <l>Doth nothing but augment my care:</l>
+               <l>Therefore deſiſt and mourn na mair,</l>
+               <l>with greeting ye are wracked;</l>
+               <l>And ſince that ye, withoutten ſwither,</l>
+               <l>To viſit me are come down hither,</l>
+               <l>Be blyth, and let us drink together,</l>
+               <l>for mourning will not make it:</l>
+            </lg>
+            <lg n="97">
+               <head>97.</head>
+               <l>And ſince, ſweet Maſter, that ye ſee</l>
+               <l>That there is nought but death for me,</l>
+               <l>I pray you take it patientlie,</l>
+               <l>ſince there is no redemption:</l>
+               <pb n="31" facs="tcp:175632:16"/>
+               <l>And I do make you ſupplication,</l>
+               <l>To carry home my commendation</l>
+               <l>To all and whole the Congregation</l>
+               <l>of <hi>Currie,</hi> but exemption.</l>
+            </lg>
+            <lg n="98">
+               <head>98.</head>
+               <l>As for my goods, they're elſe divided,</l>
+               <l>No part thereof is undecided,</l>
+               <l>Except my ſprit: and that, to guide it,</l>
+               <l>I leave the King of Farie,</l>
+               <l>Perpetually for to remain</l>
+               <l>In wilderneſſe with his great train,</l>
+               <l>And never to come back again,</l>
+               <l>but in his court to tarie.</l>
+            </lg>
+            <lg n="99">
+               <head>99.</head>
+               <l>This ſpeech thus ended, ſhe ſat down</l>
+               <l>All comfortleſſe, and fell a ſwown,</l>
+               <l>Where ſhe, in that great paſſion,</l>
+               <l>both heartleſſe, faint and weary,</l>
+               <l>With a great exclamation</l>
+               <l>To <hi>Pluto</hi> making invocation,</l>
+               <l>Did yeeld her ſprit but moleſtation.</l>
+               <l>Thus ended <hi>John Smith</hi>'s Meirie.</l>
+            </lg>
+            <lg n="100">
+               <head>100.</head>
+               <l>Now have ye heard the Tragedy,</l>
+               <l>The latter Will and Legacy</l>
+               <l>Of this Meir, and the certainty,</l>
+               <l>when, where, and how ſhe ended:</l>
+               <l>Which, though it be both groffe and rud,</l>
+               <l>And of all eloquence denude,</l>
+               <l>Yet, Sirs, imbrace't as it were go</l>
+               <l>for I took pains to mend it.</l>
+            </lg>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
